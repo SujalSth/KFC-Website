@@ -130,11 +130,12 @@ h2{
 }
 
 .why-us{
-    margin-top: 30px;
+    margin-top: 20px;
     height: 400px;
     width: 100%;
     display: flex;
     padding: 0px 100px;
+    margin-bottom: 30px;
 }
 .whyus-image{
     height: 400px;
