@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    height:100px;
+    width:100%;
+    background-color: rgb(221, 216, 211);
+    display: flex;
+    padding:0px 100px;
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    padding: 10px;
+    
+}
+.logo img{
+    height: 75px;
+}
+.navbar{
+    height:100px;
+    width:80%;
+    /* background-color: rgb(71, 120, 255); */
+    padding: 20px;
+
+}
+ol{
+    display: flex;
+    justify-content: end;
+    gap:20px;
+    padding:7px 10px;
+    font-family: sans-serif;
+    align-items: center;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ol li{
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    transition:calc(1s);  
+    font-weight: bold;       
+}
+li:hover{
+    background-color: red;
+    color: aliceblue;
+    cursor: pointer;
+}
+.slider{
+    background-color: yellow;
+    height: 400px;
+    width: 100%;
+}
+.slider img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(0, 0, 0);
+    font-family:sans-serif;
+    margin-bottom: 20px;
+}
+.foodmenu{
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.food1{
+    height: auto;
+    width: 25%;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius:10px ;
+}
+.food-img{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(148, 14, 14);
+    border-radius: 10px;
+    
+}
+.food-details{
+    padding: 10px 0px;
+    text-align: start;
+    opacity: 70%;
+}
+.food-price{
+    display: flex;
+    justify-content: space-between;
+    /* padding:10px 0px; */
+    align-items: center;
+}
+.food-price button{
+    padding: 7px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: white;
+    color:red;
+    font-size: 15px;
+}
+.food-price button:hover{
+    background-color: red;
+    color: white;
+    transition: ease 1s;
+    cursor: pointer;
+}
+.hero-img{
+    margin-top:30px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/24b21287319535.5db46ef4c1b0f.png);
+    height:300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.why-us{
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    padding: 0px 100px;
+}
+.whyus-image{
+    height: 400px;
+    width: 60%;
+    background-size: cover;
+}
+.whyus-image img{
+    height: 400px;
+    width:100%;
+    object-fit: fill;
+}
+.whyus-description{
+    height: 400px;
+    width:40%;
+    font-family: sans-serif;
+    padding: 0px 20px;
+}
+.whyus-description a{
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    
+}
+.footer{
+    width:100%;
+    background-color: rgb(36, 36, 42);
+}
+.footer-img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer-menu ol{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-menu ol li{
+    color:white;
+    font-size: 16px;
+    list-style-type: none;
+
+}
+.footer-menu ol li:hover{
+    color: red;
+    background-color: rgb(30, 26, 26);
+
+}
+.footer-boxes{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 5px;
+}
+/* .footer-boxes ol{
+    display: flex;
+    gap:10px;
+} */
+.footer-boxes ol li{
+    height: 45px;
+    width: 20px;
+    background-color: white;
+}
+.footer-icons{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size: 35px;
+    gap: 40px;
+    padding: 10px 0px;
+}
+
+.footer-copyright{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    color: white;
+    background-color: rgb(8, 8, 12);
+}
+.footer-copyright span{
+    color: red;
+}
+.hero-section{
+height: 400px;
+width: 100%;
+background-color: rgb(168, 11, 11);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-section h3{
+    font-size: 64px;
+    color: white;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+}
+.contactus form{
+    width: 600px;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+}
+.contactus .align{
+    display: flex;
+    justify-content: space-between;
+}
+.contactus input{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(236, 230, 230);
+}
+.contactus .input-field1{
+    
+}
+.contactus select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(236, 230, 230);
+    border: none;
+    border-radius: 5px;
+}
+.contactus textarea{
+    width: 100%;
+    margin:10px 0px;
+    background-color: rgb(236, 230, 230);
+    border: none;
+    border-radius: 5px;
+    padding:10px ;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]{
+    background-color: red;
+    color:white;
+    padding: 10px 100px;
+}
+
